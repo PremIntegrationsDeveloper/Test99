@@ -2,7 +2,7 @@ name : Communicating with Cliq
 
 on:
   push:
-  
+  workflow_dispatch:
 jobs:
   test_name:
     runs-on: ubuntu-latest
