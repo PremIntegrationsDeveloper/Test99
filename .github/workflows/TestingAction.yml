@@ -7,9 +7,4 @@ jobs:
   test_name:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World"
-      - run: echo "Hello 1"
-      - run: echo "Hello 2"
-      - run: echo "Hello 3"
-      - run: echo "Hello 4"
-      - run: echo "Hello 5"
+      - run: exit 1
